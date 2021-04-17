@@ -1,0 +1,67 @@
+body{
+    margin: 0px;
+    width: 100%;
+   
+}
+
+.header{
+    border-bottom: 5px solid black;
+}
+
+
+
+img{
+    display: none;
+
+
+}
+
+
+h4{
+    background-color: lightGrey;
+}
+
+.left{
+    display:block;
+    padding-bottom: 30px;
+    
+}
+.right{
+    display: block;
+
+}
+
+@media only screen and (min-width: 768px) {
+   
+
+    .header{
+        text-align: center;
+        
+        
+        
+        
+    
+    }
+
+    img{
+        display: block;
+        height: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+    
+   
+   
+   
+    .left{
+        display:block;
+        float: left;
+        
+    }
+    .right{
+        display: block;
+        float: right;
+    
+    } 
+   
+}
